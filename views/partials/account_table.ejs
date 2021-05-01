@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Account Number</th>
+            <th scope="col">Client Name</th>
+            <th scope="col">Balance</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="col"><%= accounts.client_id %></th>
+            <th scope="col"><%= accounts.account_no %></th>
+            <th scope="col"><%= clients.first_name %> <%= clients.last_name %></th>
+            <th scope="col"><%= accounts.balance %></th>
+        </tr>
+    </tbody>
+</table>
